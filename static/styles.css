@@ -1,0 +1,44 @@
+p {
+	color: #808080;
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+}
+
+.media .content {
+    flex: 1;
+    padding: 10px;
+    width: 500px;
+}
+
+body { min-height: 100vh; }
+
+ion-icon {
+  text-decoration: none;
+}
+
+.insta {
+color: magenta;
+      
+}
