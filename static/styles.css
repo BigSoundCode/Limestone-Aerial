@@ -7,6 +7,8 @@ p {
 }
 
 
+
+
 .center {
   display: block;
   margin-left: auto;
@@ -15,6 +17,18 @@ p {
 }
 
 @media screen and (min-width: 640px) {
+
+#headervideo {
+	width:1000px;
+	height: 700px;
+
+}
+
+#servicevideo {
+	width: 640px;
+	height: 360px;
+
+}
 
 .flex-grid {
   display: flex;
@@ -92,4 +106,8 @@ textarea {
 
 
 
+#logo {
+	max-height: 128px;
+	max-width: 111px;
 
+}
