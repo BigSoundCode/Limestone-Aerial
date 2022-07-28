@@ -22,18 +22,19 @@ p {
 .col {
   flex: 1;
   
-.media {
+/*.media {
     display: flex;
     align-items: center;
 }
+*/
 
 
-.media .content {
+/*.media .content {
     flex: 1;
     padding: 10px;
     width: 500px;
 }
-
+*/
 
 
   
@@ -83,6 +84,12 @@ textarea {
   width: 800px;
   height: 160px;
 }
+
+ img {
+  width: 100%;
+  height: auto;
+}
+
 
 
 
