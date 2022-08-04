@@ -102,8 +102,13 @@ color: #d90762;
 }
 
 textarea {
-  width: 800px;
+  width: 100%;
   height: 160px;
+}
+
+.inform {
+  width: 100%;
+
 }
 
  img {
