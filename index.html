@@ -269,15 +269,26 @@
     <div id = "emailform">
       <h2 style = "text-align: center;">Send Message</h2>
 
-<form class="form-group" id="usrform"  action="https://formsubmit.co/zacharydjackson94@gmail.com" method="post" enctype="text/plain">
 
-<input class ="inform" type="text" name="name" placeholder="Name" ><br>
+      <div class="container">
+        <form target="_blank" action="https://formsubmit.co/zacharydjackson94@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address*" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn shadow-none center">SEND</button>
+        </form>
+      </div>
 
-<input class="inform" type="email" name="mail" placeholder ="Email*" required><br>
-<br>
-<textarea name="comment" form="usrform" placeholder="Message"></textarea> <br><br>
-<input type="submit" value="SEND" class = "btn shadow-none center">
-</form>
 
     </div>
     <br>
